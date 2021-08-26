@@ -1,4 +1,4 @@
-/content <h3>Here are the files, go do whatever you want with them</h3>
+<h3>Here are the files, go do whatever you want with them</h3>
 <br>
 <br>
 <br>
@@ -9,4 +9,4 @@
    <p>Even this README is made with HTML.<p>
     <p>Ok, I am tired of telling you everything, just go play around with the code and see what you can do<p>
   
-  <button onclick=alert('I told you to go play around with the code! Why are ya still clicking buttons!?')>Click me</button>
+<a href="#" class="btn btn-round" id="btn-demo-4.2">Button</a>
