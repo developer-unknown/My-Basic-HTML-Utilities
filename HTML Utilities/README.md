@@ -9,4 +9,5 @@
    <p>Even this README is made with HTML.<p>
     <p>Ok, I am tired of telling you everything, just go play around with the code and see what you can do<p>
   
-<button onclick=""alert ('HAHA')class="btn btn-round" id="btn-demo-4.2">Click me for now reason</a>
+Lorem ipsum dolor sit amet.
+{% include button.html url="http://www.google.com" %}
