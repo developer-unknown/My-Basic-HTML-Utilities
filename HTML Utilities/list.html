@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<input type='text' id='idea'>
+<input type="button" id="add" value="Add New">
+<script>document.getElementById("add").onclick  = function() {
+
+    var node = document.createElement("Li");
+    var text = document.getElementById("idea").value; 
+    var textnode=document.createTextNode(text);
+    node.appendChild(textnode);
+    document.getElementById("list").appendChild(node);
+}
+</script>
+<ul id='list'></ul>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
